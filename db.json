@@ -1,14 +1,105 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "getSteps": [
+    { "id": 1, "title": "Step 1", "description": "Description 1" },
+    { "id": 2, "title": "Step 2", "description": "Description 2" },
+    { "id": 3, "title": "Step 3", "description": "Description 3" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "getReferrerStatus":
+    { "totalReferrals": 4, "totalEarned": 75 
+    },
+  "getReferrals": [
+    {
+    "phoneNumber": "469-995-3167",
+    "expiryDate": "2022-02-26T23:05:12.570Z",
+    "status": false,
+    "sentDate": "2020-10-14T15:57:31.205Z",
+    "id": "1"
+  },
+  {
+    "phoneNumber": "625-967-5405",
+    "expiryDate": "2022-02-21T10:00:55.312Z",
+    "status": false,
+    "sentDate": "2021-08-08T07:01:44.786Z",
+    "id": "2"
+  },
+  {
+    "phoneNumber": "348-665-6956",
+    "expiryDate": "2021-11-03T08:16:45.326Z",
+    "status": false,
+    "sentDate": "2020-10-19T15:21:46.195Z",
+    "id": "3"
+  },
+  {
+    "phoneNumber": "723-748-9922",
+    "expiryDate": "2022-06-03T05:06:25.457Z",
+    "status": true,
+    "sentDate": "2021-03-17T21:44:00.722Z",
+    "id": "4"
+  },
+  {
+    "phoneNumber": "603-920-8009",
+    "expiryDate": "2022-03-12T20:38:30.311Z",
+    "status": false,
+    "sentDate": "2021-08-10T01:13:32.522Z",
+    "id": "5"
+  },
+  {
+    "phoneNumber": "330-424-9523",
+    "expiryDate": "2022-09-19T13:02:54.827Z",
+    "status": false,
+    "sentDate": "2021-04-04T04:30:23.484Z",
+    "id": "6"
+  },
+  {
+    "phoneNumber": "878-382-7567",
+    "expiryDate": "2022-04-03T09:57:27.581Z",
+    "status": true,
+    "sentDate": "2021-09-06T13:22:56.439Z",
+    "id": "7"
+  },
+  {
+    "phoneNumber": "891-412-6727",
+    "expiryDate": "2022-04-02T19:46:14.924Z",
+    "status": false,
+    "sentDate": "2021-08-29T06:37:40.344Z",
+    "id": "8"
   }
+  ],
+  "getDetailsForReferral": [
+  "phoneNumber": "927-312-7753",
+  "sentDate": "2021-08-24T05:25:53.524Z",
+  "expiryDate": "2021-11-26T21:54:18.406Z",
+  "status": true,
+  "sendReminder": false,
+  "offerType": 97,
+  "Milestones": [
+   {
+    "amount": 75,
+    "unitOfMeasure": "LTV",
+    "newMemberRewardAmount": 45,
+    "newMemberUnitOfMeasure": "LTV",
+    "referreeAmount": 65,
+    "referreeUnitOfMeasure": "LTV",
+    "id": "1"
+  },
+  {
+    "amount": 45,
+    "unitOfMeasure": "one-off top up",
+    "newMemberRewardAmount": 35,
+    "newMemberUnitOfMeasure": "one-off top up",
+    "referreeAmount": 25,
+    "referreeUnitOfMeasure": "one-off top up",
+    "id": "2"
+  },
+{
+    "amount": 65,
+    "unitOfMeasure": "percentage",
+    "newMemberRewardAmount": 25,
+    "newMemberUnitOfMeasure": "percentage",
+    "referreeAmount": 15,
+    "referreeUnitOfMeasure": "percentage",
+    "id": "3"
+  }
+  ],
+  ],
 }
