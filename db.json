@@ -32,8 +32,9 @@
   }
 ],
 	"getReferrerStatus": {
-		"totalReferrals": 4,
-		"totalEarned": 75
+		"totalRewards": 30,
+		"totalSignedUp": 8,
+		"totalThisMonth": 20
 	},
 	"getReferrals": [{
 			"phoneNumber": "469-995-3167",
